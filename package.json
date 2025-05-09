@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "serve out -p 3333",
+    "eslint-check": "eslint . --ext .ts,.tsx",
     "type-check": "tsc --noEmit",
+    "pritter-check": "prettier \"./**/*.{css,tsx,ts}\" --check --ignore-path .prettierignore",
     "lint": "next lint --fix",
     "test": "jest",
     "format": "prettier \"./**/*.{css,tsx,ts}\" --write --ignore-path .prettierignore"
