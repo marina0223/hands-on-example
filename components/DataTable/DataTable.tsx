@@ -15,7 +15,7 @@ type Props = {
 const DataTable = ({ prefPopulationList }: Props) => {
   const columns: GridColDef[] = [
     {
-      field: "prefName",
+      // field: "prefName",
       headerName: "都道府県",
       width: 240,
       sortComparator: sortPrefId,
